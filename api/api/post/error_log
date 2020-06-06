@@ -1,0 +1,38 @@
+[03-Jul-2019 06:59:24 America/New_York] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/expressshipping/public_html/api/api/post/get_forex.php on line 27
+[03-Jul-2019 06:59:27 America/New_York] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/expressshipping/public_html/api/api/post/get_forex.php on line 27
+[03-Jul-2019 06:59:29 America/New_York] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/expressshipping/public_html/api/api/post/get_forex.php on line 27
+[03-Jul-2019 06:59:38 America/New_York] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/expressshipping/public_html/api/api/post/get_forex.php on line 27
+[03-Jul-2019 06:59:40 America/New_York] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/expressshipping/public_html/api/api/post/get_forex.php on line 27
+[03-Jul-2019 07:01:53 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/expressshipping/public_html/api/api/post/get_forex.php on line 34
+[03-Jul-2019 07:01:55 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/expressshipping/public_html/api/api/post/get_forex.php on line 34
+[03-Jul-2019 07:02:41 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 23
+[03-Jul-2019 07:02:50 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 23
+[03-Jul-2019 07:04:27 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 23
+[03-Jul-2019 07:04:30 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 23
+[03-Jul-2019 07:04:32 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 23
+[03-Jul-2019 07:04:34 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 23
+[03-Jul-2019 07:05:28 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 25
+[03-Jul-2019 07:07:20 America/New_York] PHP Warning:  phpinfo() has been disabled for security reasons in /home/expressshipping/public_html/api/api/post/get_forex.php on line 3
+[03-Jul-2019 07:07:21 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 25
+[03-Jul-2019 07:10:10 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 24
+[03-Jul-2019 07:10:33 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::getElementsByTagName() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 24
+[03-Jul-2019 07:12:31 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::count() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 24
+[03-Jul-2019 07:13:12 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::length() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 24
+[03-Jul-2019 08:30:37 America/New_York] PHP Fatal error:  Call to undefined method DOMNodeList::length() in /home/expressshipping/public_html/api/api/post/get_forex.php on line 24
+[03-Jul-2019 08:41:23 America/New_York] PHP Fatal error:  Cannot access empty property in /home/expressshipping/public_html/api/api/post/get_forex.php on line 28
+[03-Jul-2019 08:48:09 America/New_York] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/expressshipping/public_html/api/api/post/get_forex.php on line 28
+[03-Jul-2019 08:48:11 America/New_York] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/expressshipping/public_html/api/api/post/get_forex.php on line 28
+[21-Oct-2019 02:31:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/expressshipping/public_html/api/config/Database.php:12
+Stack trace:
+#0 /home/expressshipping/public_html/api/config/Database.php(12): PDO->__construct('mysql:host=loca...', 'expresss_expshi...', 'Hitit@99@@88!!')
+#1 /home/expressshipping/public_html/api/api/post/get_form_data.php(9): Database->connect()
+#2 {main}
+  thrown in /home/expressshipping/public_html/api/config/Database.php on line 12
+[23-Oct-2019 03:48:54 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' and 
+                    expiryDate > '2019.10.23'
+                     ORDE' at line 3' in /home/expressshipping/public_html/api/models/test.php:94
+Stack trace:
+#0 /home/expressshipping/public_html/api/models/test.php(94): PDOStatement->execute()
+#1 /home/expressshipping/public_html/api/api/post/getRates.php(22): Test->getrates()
+#2 {main}
+  thrown in /home/expressshipping/public_html/api/models/test.php on line 94
